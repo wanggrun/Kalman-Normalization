@@ -27,6 +27,19 @@ If you use these models in your research, please cite:
   		year={2018}
     }
 
+
+### Dependencies
++ Python 2.7 or 3
++ TensorFlow >= 1.3.0
++ [Tensorpack](https://github.com/ppwwyyxx/tensorpack)
+   The code depends on Yuxin Wu's Tensorpack. For convenience, we provide a stable version 'tensorpack-installed' in this repository. 
+   ```
+   # install tensorpack locally:
+   cd tensorpack-installed
+   python setup.py install --user
+   ```
+
+
 ### Results
 0. Validation Curves on CIFAR10, batch size = 2 (Upper Line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); Mid Line: [Group Normalization](https://arxiv.org/abs/1803.08494); Bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)):
 	![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)

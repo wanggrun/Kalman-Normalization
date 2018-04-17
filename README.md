@@ -10,6 +10,7 @@ Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), Sense
 0. [Results](#results)
 
 
+
 ### Introduction
 
 This repository contains the original models described in the paper "Batch Kalman Normalization: Towards Training Deep Neural Networks with Micro-Batches" (https://arxiv.org/abs/1802.03133). These models are those used in [ILSVRC](http://image-net.org/challenges/LSVRC/2015/) and [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) 

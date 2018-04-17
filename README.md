@@ -2,7 +2,7 @@
 
 By [Guangrun Wang](https://wanggrun.github.io/), [Jiefeng Peng](http://www.sysu-hcp.net/people/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), XinJiang Wang and [Liang Lin](http://www.linliang.net/).
 
-Sun Yat-sen University (SYSU), the Chinese University of Hong Kong, SenseTime Group Ltd.
+Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), SenseTime Group Ltd.
 
 ### Table of Contents
 0. [Introduction](#introduction)

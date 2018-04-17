@@ -1,6 +1,6 @@
 # Batch Kalman Normalization
 
-By [Guangrun Wang](https://wanggrun.github.io/), [Jiefeng Peng](http://www.sysu-hcp.net/people/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), XinJiang Wang and [Liang Lin](http://www.linliang.net/).
+By [Guangrun Wang](https://wanggrun.github.io/), [Jiefeng Peng](http://www.sysu-hcp.net/people/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), Xinjiang Wang and [Liang Lin](http://www.linliang.net/).
 
 Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), SenseTime Group Ltd.
 

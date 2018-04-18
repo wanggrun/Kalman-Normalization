@@ -14,12 +14,12 @@ Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), Sense
 ### Results
 0. Validation Curves on CIFAR10, batch size = 2 
 
-top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); mid line: [Group Normalization](https://arxiv.org/abs/1803.08494); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)
+top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); mid line: [Group Normalization](https://arxiv.org/abs/1803.08494); bottom line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)
         ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)
 
 0. Validation Curves on CIFAR10, batch size = 128
 
-top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133))
+top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); bottom line: [Kalman Normalization](https://arxiv.org/abs/1802.03133))
         ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bkn_bn_large_batch.png)
 
 

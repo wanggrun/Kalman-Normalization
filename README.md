@@ -9,6 +9,7 @@ Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), Sense
 0. [Introduction](#introduction)
 0. [Citation](#citation)
 0. [Dependencies](#dependencies)
+0. [Usage](#usage)
 
 
 ### Results
@@ -51,4 +52,7 @@ If you use these models in your research, please cite:
    cd tensorpack-installed
    python setup.py install --user
    ```
+
+### Usage
++ To run Group Normalization, use: python cifar-gn.py --gpu 0 -n 5 --log_dir gn
 

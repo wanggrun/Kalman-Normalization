@@ -5,10 +5,17 @@ By [Guangrun Wang](https://wanggrun.github.io/), [Jiefeng Peng](http://www.sysu-
 Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), SenseTime Group Ltd.
 
 ### Table of Contents
-0. [Introduction](#introduction)
-0. [Citation](#citation)
 0. [Results](#results)
+0. [Introduction](#introduction)
+0. [Citation](#Citation)
 
+
+### Results
+0. Validation Curves on CIFAR10, batch size = 2 (top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); mid line: [Group Normalization](https://arxiv.org/abs/1803.08494); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)):
+        ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)
+
+0. Validation Curves on CIFAR10, batch size = 128 (top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)):
+        ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bkn_bn_large_batch.png)
 
 
 ### Introduction
@@ -40,9 +47,3 @@ If you use these models in your research, please cite:
    python setup.py install --user
    ```
 
-### Results
-0. Validation Curves on CIFAR10, batch size = 2 (top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); mid line: [Group Normalization](https://arxiv.org/abs/1803.08494); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)):
-	![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)
-
-0. Validation Curves on CIFAR10, batch size = 128 (top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); bottom Line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)):
-	![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bkn_bn_large_batch.png)

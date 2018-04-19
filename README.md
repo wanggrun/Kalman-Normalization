@@ -54,5 +54,7 @@ If you use these models in your research, please cite:
    ```
 
 ### Usage
-+ To run Group Normalization, use: python cifar-gn.py --gpu 0 -n 5 --log_dir gn
-
++ To run Group Normalization, use
+  ```
+  python cifar-gn.py --gpu 0 -n 5 --log_dir gn
+  ```

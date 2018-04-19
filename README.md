@@ -64,3 +64,16 @@ If you use these models in your research, please cite:
   cd KalmanNorm
   python cifar-bn-microbatch.py   --gpu 0 --log_dir  bn-microbatch
   ```
++ To run Kalman Normalization under the context of micro-batches, use:
+  ```
+  cd KalmanNorm
+  python cifar-kn-microbatch.py   --gpu 0 --log_dir  kn-microbatch
++ To run Batch Normalization under the context of large-batches, use:
+  ```
+  cd KalmanNorm
+  python cifar-bn-largebatch.py   --gpu 0 --log_dir  bn-largebatch
++ To run Kalman Normalization under the context of large-batches, use:
+  ```
+  cd KalmanNorm
+  python cifar-kn-largebatch.py   --gpu 0 --log_dir  kn-largebatch
+

@@ -54,7 +54,11 @@ If you use these models in your research, please cite:
    ```
 
 ### Usage
-+ To run Group Normalization, use
++ To run Group Normalization, use:
   ```
+  cd KalmanNorm
   python cifar-gn.py --gpu 0 -n 5 --log_dir gn
   ```
++ To run Batch Normalization under the context of micro-batches, use:
+  cd KalmanNorm
+  python cifar-bn-microbatch.py   --gpu 0 --log_dir  bn-microbatch

@@ -62,18 +62,18 @@ If you use these models in your research, please cite:
 + To run Batch Normalization under the context of micro-batches, use:
   ```
   cd KalmanNorm
-  python cifar-bn-microbatch.py   --gpu 0 --log_dir  bn-microbatch
+  python cifar-bn-microbatch.py --gpu 0 -n 5 --log_dir  bn-microbatch
   ```
 + To run Kalman Normalization under the context of micro-batches, use:
   ```
   cd KalmanNorm
-  python cifar-kn-microbatch.py   --gpu 0 --log_dir  kn-microbatch
+  python cifar-kn-microbatch.py --gpu 0 -n 5 --log_dir  kn-microbatch
 + To run Batch Normalization under the context of large-batches, use:
   ```
   cd KalmanNorm
-  python cifar-bn-largebatch.py   --gpu 0 --log_dir  bn-largebatch
+  python cifar-bn-largebatch.py   --gpu 0 -n 18 --log_dir  bn-largebatch
 + To run Kalman Normalization under the context of large-batches, use:
   ```
   cd KalmanNorm
-  python cifar-kn-largebatch.py   --gpu 0 --log_dir  kn-largebatch
+  python cifar-kn-largebatch.py   --gpu 0 -n 18 --log_dir  kn-largebatch
 

@@ -19,15 +19,6 @@ CIFAR10 ResNet example. See:
 Deep Residual Learning for Image Recognition, arxiv:1512.03385
 This implementation uses the variants proposed in:
 Identity Mappings in Deep Residual Networks, arxiv:1603.05027
-
-I can reproduce the results on 2 TitanX for
-n=5, about 7.1% val error after 67k steps (20.4 step/s)
-n=18, about 5.95% val error after 80k steps (5.6 step/s, not converged)
-n=30: a 182-layer network, about 5.6% val error after 51k steps (3.4 step/s)
-This model uses the whole training set instead of a train-val split.
-
-To train:
-    ./cifar10-resnet.py --gpu 0,1
 """
 
 BATCH_SIZE = 128

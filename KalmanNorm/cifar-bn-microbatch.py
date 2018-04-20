@@ -148,7 +148,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', help='comma separated list of GPU(s) to use.')
     parser.add_argument('-n', '--num_units',
                         help='number of units in each stage',
-                        type=int, default=18)
+                        type=int, default=5)
     parser.add_argument('--load', help='load model')
 
     parser.add_argument('--log_dir', type=str, default='')

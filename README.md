@@ -1,4 +1,4 @@
-# Batch Kalman Normalization
+# Kalman Normalization
 
 By [Guangrun Wang](https://wanggrun.github.io/), [Jiefeng Peng](http://www.sysu-hcp.net/people/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), Xinjiang Wang and [Liang Lin](http://www.linliang.net/).
 
@@ -16,12 +16,12 @@ Sun Yat-sen University (SYSU), the Chinese University of Hong Kong (CUHK), Sense
 + Under the context of micro-batches(batch size = 2), the validataion curves on CIFAR10:
 
 top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); mid line: [Group Normalization](https://arxiv.org/abs/1803.08494); bottom line: [Kalman Normalization](https://arxiv.org/abs/1802.03133)
-        ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)
+        ![Training curves](https://github.com/wanggrun/Kalman-Normalization/blob/master/results/bn_gn_bkn_micro_batch.png)
 
 + Under the context of large-batches(batch size = 128), the validataion curves on CIFAR10:
 
 top line: [Batch Normalization(BN)](https://arxiv.org/abs/1502.03167); bottom line: [Kalman Normalization](https://arxiv.org/abs/1802.03133))
-        ![Training curves](https://github.com/wanggrun/Batch-Kalman-Normalization/blob/master/results/bkn_bn_large_batch.png)
+        ![Training curves](https://github.com/wanggrun/Kalman-Normalization/blob/master/results/bkn_bn_large_batch.png)
 
 
 ### Introduction

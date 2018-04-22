@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # File: cifar10-resnet.py
-# Author: Guangrun Wang <https://wanggrun.github.io/>
+# Author: Guangrun Wang, Jiefeng Wang
 
 import argparse
 import os
